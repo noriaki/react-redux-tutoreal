@@ -15,5 +15,12 @@
   "bugs": {
     "url": "https://github.com/noriaki/react-redux-tutoreal/issues"
   },
-  "homepage": "https://github.com/noriaki/react-redux-tutoreal#readme"
+  "homepage": "https://github.com/noriaki/react-redux-tutoreal#readme",
+  "dependencies": {
+    "react": "^0.14.7",
+    "react-redux": "^4.4.1",
+    "redux": "^3.3.1",
+    "webpack": "^1.12.14",
+    "webpack-dev-server": "^1.14.1"
+  }
 }
