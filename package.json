@@ -1,0 +1,19 @@
+{
+  "name": "react-redux-tutoreal",
+  "version": "1.0.0",
+  "description": "",
+  "main": "index.js",
+  "scripts": {
+    "test": "echo \"Error: no test specified\" && exit 1"
+  },
+  "repository": {
+    "type": "git",
+    "url": "git+ssh://git@github.com/noriaki/react-redux-tutoreal.git"
+  },
+  "author": "Noriaki Uchiyama",
+  "license": "MIT",
+  "bugs": {
+    "url": "https://github.com/noriaki/react-redux-tutoreal/issues"
+  },
+  "homepage": "https://github.com/noriaki/react-redux-tutoreal#readme"
+}
