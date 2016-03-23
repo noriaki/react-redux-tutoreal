@@ -2,7 +2,8 @@ import React from 'react';
 import { connect } from 'react-redux';
 
 import NewTodo from './new_todo';
-import { addTodo } from '../actions';
+import DeleteTodo from './delete_todo';
+import { addTodo, deleteTodo } from '../actions';
 
 const Todos = ({ todos, dispatch }) => {
   return(
@@ -14,7 +15,12 @@ const Todos = ({ todos, dispatch }) => {
             e.target.value = '';
           }
         }} />
-      { todos.map(todo => <p key={todo}>{todo}</p>) }
+        { todos.map((todo, index) => {
+          return(<p key={todo}>{todo}
+                 <DeleteTodo onClick={() => {
+                     dispatch(deleteTodo(index));
+                     }} /></p>);
+        }) }
     </div>
   );
 };
